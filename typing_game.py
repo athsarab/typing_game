@@ -57,7 +57,7 @@ def check_result():
     result_label.config(
         text=f"⏱ Time: {time_taken:.2f}s  🖋 WPM: {wpm:.2f}  ✅ Accuracy: {accuracy:.2f}%"
     )
-
+ 
     # Feedback
     if accuracy > 90:
         feedback = "🎉 Great job!"
